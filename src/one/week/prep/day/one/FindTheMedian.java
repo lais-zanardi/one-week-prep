@@ -1,11 +1,10 @@
-package one.week.prep.mock.test;
+package one.week.prep.day.one;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-class Result {
+class ResultFindTheMedian {
     public static int findMedian(List<Integer> arr) {
         List<Integer> sortedList = arr
                 .stream()
@@ -27,7 +26,7 @@ public class FindTheMedian {
         list.add(5);
         list.add(3);
 
-        Result.findMedian(list);
+        ResultFindTheMedian.findMedian(list);
     }
 
     }

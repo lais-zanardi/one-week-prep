@@ -1,4 +1,4 @@
-package one.week.prep.counting.sort.one;
+package one.week.prep.day.two;
 
 import java.util.ArrayList;
 import java.util.Collections;

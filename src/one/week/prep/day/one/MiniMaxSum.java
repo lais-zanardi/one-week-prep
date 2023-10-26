@@ -1,11 +1,10 @@
-package one.week.prep.mini.max.sum;
+package one.week.prep.day.one;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
-class Result {
+class ResultMiniMaxSum {
     public static void miniMaxSum(List<Integer> arr) {
         List<Integer> sortedList = arr
                 .stream()
@@ -36,6 +35,6 @@ public class MiniMaxSum {
         arr.add(623789054);
         arr.add(468592370);
 
-        Result.miniMaxSum(arr);
+        ResultMiniMaxSum.miniMaxSum(arr);
     }
 }

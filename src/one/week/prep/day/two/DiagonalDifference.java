@@ -1,8 +1,8 @@
-package one.week.prep.diagonal.difference;
+package one.week.prep.day.two;
 
 import java.util.List;
 
-class Solution {
+class ResultDiagonalDifference {
     public static int diagonalDifference(List<List<Integer>> arr) {
         int sumFirstDiagonal = 0;
         int sumSecondDiagonal = 0;

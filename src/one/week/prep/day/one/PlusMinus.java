@@ -1,4 +1,4 @@
-package one.week.prep.plus.minus;
+package one.week.prep.day.one;
 
 import java.io.*;
 import java.util.*;
@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-class Result {
+class ResultPlusMinus {
 
     /*
      * Complete the 'plusMinus' function below.
@@ -41,7 +41,7 @@ class Result {
 
 }
 
-public class Solution {
+public class PlusMinus {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -51,7 +51,7 @@ public class Solution {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        Result.plusMinus(arr);
+        ResultPlusMinus.plusMinus(arr);
 
         bufferedReader.close();
 

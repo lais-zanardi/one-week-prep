@@ -1,11 +1,10 @@
-package one.week.prep.lonely.integer;
+package one.week.prep.day.two;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
-class Result {
+class ResultLonelyInteger {
     public static int lonelyInteger(List<Integer> arr) {
         int elementThatOccursOnce = 0;
         for (int i = 0; i < arr.size() ; i++) {
@@ -30,6 +29,6 @@ public class LonelyInteger {
         arr.add(2);
         arr.add(1);
 
-        Result.lonelyInteger(arr);
+        ResultLonelyInteger.lonelyInteger(arr);
     }
 }

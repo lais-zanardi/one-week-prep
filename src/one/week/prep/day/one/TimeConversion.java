@@ -1,6 +1,6 @@
-package one.week.prep.time.conversion;
+package one.week.prep.day.one;
 
-class Result {
+class ResultTimeConversion {
     public static String timeConversion(String s) {
         if(s.endsWith("AM")) {
             int hh = Integer.parseInt(s.substring(0,2));
@@ -37,6 +37,6 @@ public class TimeConversion {
     public static void main(String[] args) {
         String s = "12:45:54PM";
 
-        Result.timeConversion(s);
+        ResultTimeConversion.timeConversion(s);
     }
 }
