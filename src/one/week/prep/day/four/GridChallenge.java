@@ -70,4 +70,3 @@ public class GridChallenge {
             bufferedWriter.close();
         }
     }
-}
